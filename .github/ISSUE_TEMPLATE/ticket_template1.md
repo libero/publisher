@@ -1,7 +1,7 @@
-🚨Please review the [guidelines for feature ticket](../HOWTOWRITEATICKETS.md) to this repository if unsure about what to write..
+🚨Please review the [guidelines for feature ticket](../HOWTOWRITEATICKETS.md) to this repository if unsure about what to write.
 
 +## Problem / Motivation
-Describe your issue here. You can you the user story format.
+Describe your issue here. You can use the user story format.
 - As a ... Who?
 - I would like ... what?
 - So that ... why?
