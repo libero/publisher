@@ -16,12 +16,12 @@ List of tasks for this ticket to be complete:
 
 +## Clarification needed
 These questions or assumptions need to be answered for a developer to complete this ticket. Delete this section if everything is clear.
-- [ ] A descriptive of a task
-- [ ] A description
+- [ ] A question
+- [ ] An assumption that needs to be confirmed
 
 +## Technical notes
 - We could use this technology 
 - More notes or suggestions
 
 +## User interface / Wireframes
-Include wireframes if relevant.
+Include any useful sketch, wireframes, screenshot if relevant.
