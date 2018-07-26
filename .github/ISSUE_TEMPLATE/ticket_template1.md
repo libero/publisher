@@ -12,7 +12,7 @@ List of tasks for this ticket to be complete:
 - [ ] A description
 
 ## Clarification needed and assumptions
-<!-- List any questions for stakeholders you might have or assumptions that could help other contributors to understand the context within wich the ticket was written -->
+<!-- Write any questions you might have or assumptions that could help other contributors to understand the context within wich the ticket was written -->
 - A question
 - An assumption
 
