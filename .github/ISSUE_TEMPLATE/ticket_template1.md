@@ -1,27 +1,24 @@
-🚨Please review the [guidelines for ticket creation](../HOWTOWRITEATICKETS.md) if needed
-
 ## Problem / Motivation
-Describe your issue here. You can use the user story format.
-- As a ... Who?
-- I would like ... what?
-- So that ... why?
-
+<!-- Describe the problem here using the 5Ws. You can use the user story format: As a [Who] and [When][Where] I would like [What] so that [Why] --> 
+- WHO wants this?
+- WHEN and WHERE do they want it?
+- WHAT do they want?
+- WHY do they want this?
 
 ## Proposed solution and tasks
-We could build this.... and it will solve that...
-
+<!-- Describe the solution here and list the tasks required -->
 List of tasks for this ticket to be complete:
 - [ ] A descriptive of a task
 - [ ] A description
 
-## Clarification needed
-These questions or assumptions need to be answered for a developer to complete this ticket. Delete this section if everything is clear.
-- [ ] A question
-- [ ] An assumption that needs to be confirmed
+## Clarification needed and assumptions
+<!-- List any questions for stakeholders you might have or assumptions that could help other contributors to understand the context within wich the ticket was written -->
+- A question
+- An assumption
 
 ## Technical notes
 - We could use this technology 
 - More notes or suggestions
 
 ## User interface / Wireframes
-Include any useful sketch, wireframes, screenshot if relevant.
+<!-- Include any useful sketch, wireframes, screenshot if relevant. -->
