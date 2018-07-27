@@ -7,7 +7,11 @@
 
 ## Proposed solution and tasks
 <!-- Describe the solution here and list the tasks required -->
-List of tasks for this ticket to be complete:
+- Is like this 
+- And like this
+
+<!-- List of tasks for this ticket to be complete -->
+To do list:
 - [ ] A descriptive of a task
 - [ ] A description
 
