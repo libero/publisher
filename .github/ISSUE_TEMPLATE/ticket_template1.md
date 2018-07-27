@@ -5,18 +5,18 @@
 - WHAT do they want?
 - WHY do they want this?
 
-## Proposed solution and tasks
+## Proposed solution
 <!-- Describe the solution here and list the tasks required -->
 - Is like this 
 - And like this
 
+## Tasks
 <!-- List of tasks for this ticket to be complete -->
-To do list:
 - [ ] A descriptive of a task
 - [ ] A description
 
 ## Clarification needed and assumptions
-<!-- Write any questions you might have or assumptions that could help other contributors to understand the context within wich the ticket was written -->
+<!-- Write any questions you might have or assumptions that could help other contributors to understand the context within which the ticket was written -->
 - A question
 - An assumption
 
