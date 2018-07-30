@@ -1,3 +1,8 @@
+---
+name: Ticket
+about: Create a new ticket
+---
+
 ## Problem / Motivation
 <!-- Describe the problem here using the 5Ws. You can use the user story format: As a [Who] and [When][Where] I would like [What] so that [Why] --> 
 - WHO wants this?
