@@ -1,4 +1,10 @@
+<div align="center">
+    <img src="/libero.PNG" width="50px"</img> 
+</div>
+
 ## Libero MVP Hypothesis statement
+
+
 
 Our mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science.
 With Libero, we want to have an impact on scholarly publishing and demonstrate that our technology is reusable. We will know if there is a potential market fit for Libero when our MVP has confirmed the following 3 hypothesis:
