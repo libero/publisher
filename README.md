@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="/libero+text-logo.PNG" width="150px"</img> 
+    <img src="/liberotext-logo.PNG" width="150px"</img> 
 </div>
 
 ## Libero MVP Hypothesis statement
