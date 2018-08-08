@@ -16,4 +16,4 @@ A simple journal can adopt Libero to publish their articles once our MVP is avai
 Libero provides a platform that can be extended so that larger, more complex journals can publish their articles using the platform.
 
 ### Hypothesis #3
-Libero can help journals lower their infrastructure and maintenance costs compared to dominant commercial platforms like HighWire. 
+Libero can help journals lower their infrastructure and maintenance costs compared to dominant commercial platforms. 
