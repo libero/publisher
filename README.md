@@ -2,12 +2,12 @@
     <img src="/liberotext-logo.png" width="150px"</img> 
 </div>
 
-## Libero MVP Hypothesis statement
+## Libero Publisher MVP Hypothesis statement
 
 
 
 eLife's mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science.
-With Libero, we want to have an impact on scholarly publishing and demonstrate that our technology is reusable. We will know if there is a potential market fit for Libero when our MVP has confirmed the following 3 hypothesis:
+With Libero Publisher, we want to have an impact on scholarly publishing and demonstrate that our technology is reusable. We will know if there is a potential market fit for Libero Publisher when our MVP has confirmed the following 3 hypothesis:
 
 ### Hypothesis #1
 A __simple__ journal can adopt Libero to publish their articles once our MVP is available.
