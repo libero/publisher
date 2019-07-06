@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="/liberotext-logo.png" width="150px"</img> 
+    <img src="libero-logo-publisher.svg" alt="Libero Publisher">
 </div>
 
 ## Libero Publisher MVP Hypothesis statement
