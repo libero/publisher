@@ -2,9 +2,21 @@
     <img src="libero-logo-publisher.svg" alt="Libero Publisher">
 </div>
 
+## Getting Started
+
+Libero Publisher consists of a number of services, libraries and components so the best place to start is with the `sample-configuration` repository that contains a simple guide to cloning the latest containers and running them locally using `docker-compose`.
+
+https://github.com/libero/sample-configuration
+
+eLife use TravisCI for automated deployments to AWS instances (although currently as a single instance). The configuration and scripts for that can be found in the `environments` repository.
+
+https://github.com/libero/environments
+
+For further technical assistance please join the conversation on Slack at https://libero.pub/join-slack/
+
+To find out more about our MVP please see below and look at the high level progress/plan on our roadmap at https://elifesci.org/roadmap
+
 ## Libero Publisher MVP Hypothesis statement
-
-
 
 eLife's mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science.
 With Libero Publisher, we want to have an impact on scholarly publishing and demonstrate that our technology is reusable. We will know if there is a potential market fit for Libero Publisher when our MVP has confirmed the following 3 hypothesis:
