@@ -26,24 +26,24 @@ Include screenshots here if relevant. -->
 ***
 <!-- Don't change below this line, we will fill it out as the request is investigated -->
 
+<!--
 ## Notes
 
-<!--
 - We could use this technology
 - More notes or suggestions
 -->
 
+<!--
 ## Tasks
 
-<!--
 - [ ] Do something
 - [ ] Do another thing
   - [ ] And something else
 -->
 
+<!--
 ## Related
 
-<!--
 - Blocked by #123; blocks #456.
 - Related to #789.
 -->

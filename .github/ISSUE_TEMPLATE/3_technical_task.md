@@ -13,9 +13,9 @@ about: Record an action that needs to be taken
   - [ ] And something else
 -->
 
+<!--
 ## Related
 
-<!--
 - Blocked by #123; blocks #456.
 - Related to #789.
 -->

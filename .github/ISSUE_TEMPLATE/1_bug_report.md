@@ -25,24 +25,24 @@ Include screenshots here if relevant.
 ***
 <!-- Don't change below this line; fill out with a summary after the report has been investigated -->
 
+<!--
 ## Notes
 
-<!--
 - We could do this
 - More notes or suggestions
 -->
 
+<!--
 ## Tasks
 
-<!--
 - [ ] Do something
 - [ ] Do another thing
   - [ ] And something else
 -->
 
+<!--
 ## Related
 
-<!--
 - Blocked by #123; blocks #456.
 - Related to #789.
 -->
