@@ -1,6 +1,6 @@
 ---
 name: 🔨 Technical task
-about: Record an action that needs to be taken
+about: Task that is not necessarily user facing
 ---
 
 <!-- A clear and concise description of what needs to be done. -->
