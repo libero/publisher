@@ -23,7 +23,7 @@ Include screenshots here if relevant.
 <!-- A clear and concise description of what you expected to happen. -->
 
 ***
-<!-- Don't change below this line, we will fill it out as the report is investigated -->
+<!-- Don't change below this line; fill out with a summary after the report has been investigated -->
 
 ## Notes
 
