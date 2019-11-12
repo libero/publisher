@@ -27,6 +27,13 @@ Include screenshots here if relevant. -->
 <!-- Don't change below this line, we will fill it out as the request is investigated -->
 
 <!--
+## Related
+
+- Blocked by #123; blocks #456.
+- Related to #789.
+-->
+
+<!--
 ## Notes
 
 - We could use this technology
@@ -41,9 +48,3 @@ Include screenshots here if relevant. -->
   - [ ] And something else
 -->
 
-<!--
-## Related
-
-- Blocked by #123; blocks #456.
-- Related to #789.
--->

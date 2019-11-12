@@ -32,17 +32,17 @@ Include screenshots here if relevant.
 - More notes or suggestions
 -->
 
+## Related
+
+<!--
+- Blocked by #123; blocks #456.
+- Related to #789.
+-->
+
 <!--
 ## Tasks
 
 - [ ] Do something
 - [ ] Do another thing
   - [ ] And something else
--->
-
-<!--
-## Related
-
-- Blocked by #123; blocks #456.
-- Related to #789.
 -->
