@@ -24,14 +24,16 @@ Include screenshots here if relevant. -->
 
 <!-- Example: It will be easier to read. -->
 
-***
-<!-- Don't change below this line, we will fill it out as the request is investigated -->
+
+
+
+
+
+
+<!-- Don't change below; we will fill it when the request is investigated -->
 
 <!--
-## Related
-
-- Blocked by #123; blocks #456.
-- Related to #789.
+***
 -->
 
 <!--
@@ -39,6 +41,13 @@ Include screenshots here if relevant. -->
 
 - We could use this technology
 - More notes or suggestions
+-->
+
+<!--
+## Related
+
+- Blocked by #123; blocks #456.
+- Related to #789.
 -->
 
 <!--

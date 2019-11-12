@@ -8,7 +8,7 @@ labels: bug
 
 <!-- A clear and concise description of what the bug is. -->
 
-## How can it be recreated?
+## Can it be recreated?
 
 <!--
 1. Go to '...'
@@ -23,8 +23,17 @@ Include screenshots here if relevant.
 
 <!-- A clear and concise description of what you expected to happen. -->
 
+
+
+
+
+
+
+<!-- Don't change below; we will fill it when the report is investigated -->
+
+<!--
 ***
-<!-- Don't change below this line; fill out with a summary after the report has been investigated -->
+-->
 
 <!--
 ## Notes
@@ -33,9 +42,9 @@ Include screenshots here if relevant.
 - More notes or suggestions
 -->
 
+<!--
 ## Related
 
-<!--
 - Blocked by #123; blocks #456.
 - Related to #789.
 -->
