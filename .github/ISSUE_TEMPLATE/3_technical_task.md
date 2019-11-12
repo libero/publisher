@@ -11,9 +11,13 @@ Definition of Done:
 -->
 
 <!--
+## Related
 
-Include a Definition of Ready, if applicable: possible unknowns that need to be addressed before starting to work on this task.
+Use for the Definition of Ready: possible unknowns or blockers that need to be addressed before starting to work on this task.
 
+- Requires information from https://...
+- Blocked by #123; blocks #456.
+- Related to #789.
 -->
 
 ## Tasks
@@ -24,9 +28,3 @@ Include a Definition of Ready, if applicable: possible unknowns that need to be 
   - [ ] And something else
 -->
 
-<!--
-## Related
-
-- Blocked by #123; blocks #456.
-- Related to #789.
--->
