@@ -3,11 +3,16 @@ name: 🔨 Technical task
 about: Task that is not necessarily user facing
 ---
 
-<!-- A clear and concise description of what needs to be done.
+Definition of Done:
 
-Include a Definition of Done: acceptance criteria and examples for this task.
+<!--
+- [ ] a scenario that should be covered
+- [ ] a pull request to be merged
+-->
 
-Include a Definition of Ready: possible unknowns that need to be addressed before starting to work on this task.
+<!--
+
+Include a Definition of Ready, if applicable: possible unknowns that need to be addressed before starting to work on this task.
 
 -->
 
