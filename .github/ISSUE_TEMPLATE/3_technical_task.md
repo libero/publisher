@@ -28,4 +28,3 @@ Use for the Definition of Ready: possible unknowns or blockers that need to be a
 - [ ] Do another thing
   - [ ] And something else
 -->
-

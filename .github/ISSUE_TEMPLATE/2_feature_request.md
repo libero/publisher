@@ -1,6 +1,7 @@
 ---
-name: 🚀 Feature request
+name: 💡 Feature request
 about: Ideas for new features or improvements
+labels: feature
 ---
 
 ## Who is the change for?
@@ -47,4 +48,3 @@ Include screenshots here if relevant. -->
 - [ ] Do another thing
   - [ ] And something else
 -->
-

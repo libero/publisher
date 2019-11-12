@@ -1,6 +1,7 @@
 ---
-name: 🐛 Bug report
-about: Report errors and problems
+name: 🐞 Bug report
+about: If something isn't working as expected
+labels: bug
 ---
 
 ## What happened?
