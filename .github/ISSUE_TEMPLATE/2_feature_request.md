@@ -1,6 +1,6 @@
 ---
 name: 💡 Feature request
-about: Ideas for new features or improvements
+about: Suggest an idea for a new features or improvements.
 labels: feature
 ---
 

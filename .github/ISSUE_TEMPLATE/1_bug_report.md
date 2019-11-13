@@ -1,6 +1,6 @@
 ---
 name: 🐞 Bug report
-about: If something isn't working as expected
+about: Let us know if something isn't working as expected.
 labels: bug
 ---
 
