@@ -1,4 +1,4 @@
-# 1. Use component-level micro frontends
+# 2. Use component-level micro frontends
 
 Date: 2020-03-24
 
