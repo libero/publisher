@@ -20,8 +20,8 @@ can't meet them.
 
 ## Decision
 
-We will create separate services for individual pages and groups of pages, that will be exposed through a proxy to
-appear as a single service. The frontends are entirely independent, and can be not used or replaced entirely at will.
+We will create separate services for individual, and groups of, pages, that will be exposed through a proxy to appear as
+a single service. The frontends are entirely independent, and can be not used or replaced entirely at will.
 
 ## Consequences
 
