@@ -23,8 +23,8 @@ Each component will have 2 ESIs: 1 for the `<head>` and 1 for the `<body>`.
 ## Consequences
 
 - It is compatible with popular ESI processors (e.g. Varnish, Fastly).
-- Not all popular CDNs are ESI processors (e.g. AWS CloudFront). Each page-level micro frontend will need to process the
-  ESIs itself if it is not behind a trusted proxy that can do so. They can detect this through the
+- Not all popular CDNs are ESI processors (e.g. AWS CloudFront). If there is no trusted proxy that can do so, each
+  page-level micro frontend will need to process the ESIs itself. They can detect this through the
   [`Surrogate-Capability`][Surrogate-Capability] request header.
 - Components can add their own CSS and JavaScript in the `<head>` ESI.
 - As the page transcludes the component, the user has to take care to avoid clashes in styling and behaviour.
