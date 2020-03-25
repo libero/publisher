@@ -19,7 +19,8 @@ We will use [Edge Side Includes (ESIs)](https://www.w3.org/TR/esi-lang), limited
 Each component will have 2 ESIs: 1 for the `<head>` and 1 for the `<body>`.
 
 Each page-level micro frontend will process the ESIs if it is not behind a trusted proxy that can do so. They will
-detect this through the `Surrogate-Capabilities` request header.
+detect this through the [`Surrogate-Capability`](https://www.rfc-editor.org/rfc/rfc4229.html#section-2.1.101) request
+header.
 
 ## Consequences
 
