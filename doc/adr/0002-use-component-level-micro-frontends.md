@@ -9,18 +9,21 @@ Proposed
 ## Context
 
 Having [separate micro frontends for pages](0001-use-micro-frontends.md) requires duplication of the header and footer.
-These are likely to be changed by the user, and possibly even replaced entirely.
+
+We expect users will want to change the content of both, as well as their styling and behaviour.
 
 ## Decision
 
-We will use [Edge Side Includes (ESIs)](https://www.w3.org/TR/esi-lang), limited to `<esi:include>` to maintain
-compatibility with existing implementations (such as Varnish and Fastly).
+We will use [Edge Side Includes (ESIs)](https://www.w3.org/TR/esi-lang), limited to `<esi:include>`.
 
-Each component will have 2 ESIs, 1 for the `<head>` and 1 for the `<body>`.
+Each component will have 2 ESIs: 1 for the `<head>` and 1 for the `<body>`.
+
+Each page-level micro frontend will process the ESIs if it is not behind a trusted proxy that can do so. They will
+detect this through the `Surrogate-Capabilities` request header.
 
 ## Consequences
 
-- Requires an ESI processor, which has to at least be implemented at the app level to make it usable standalone.
-- Not all popular CDNs are ESI processors (e.g. AWS CloudFront), so require another layer.
+- It is compatible with popular ESI processors (e.g. Varnish, Fastly).
+- Not all popular CDNs are ESI processors (e.g. AWS CloudFront).
 - Components can add their own CSS and JavaScript in the `<head>` ESI.
-- As the component is transcluded into the page, Care needs to be taken to avoid clashes in styling and behaviour.
+- As the page transcludes the component, the user has to take care to avoid clashes in styling and behaviour.
