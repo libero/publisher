@@ -8,15 +8,15 @@ Proposed
 
 ## Context
 
-We have designed the API layer (known as the backend) to be a custom set of services. This allows the user to tailor it
-to their own requirements, and introduce custom code as needed.
+We designed the API layer (known as the backend) to be a custom set of services. This allows the user to tailor it to
+their own requirements, and introduce custom code as needed.
 
-We are currently planning to make the presentation layer (known as the frontend) a monolith. That is, a single service
-that generates all the HTML pages.
+The original plan was to make the presentation layer (known as the frontend) a monolith. That is, a single service that
+generates all the HTML pages.
 
-As a monolith, it is hard, if not impossible, to change or replace parts without having to replace the whole. This will
-mean a lot of configuration options to support differing requirements. It will also limit adoption of the platform as it
-can't meet them.
+As a monolith, it is hard, if not impossible, to change or replace parts without having to replace the whole. This would
+mean a lot of configuration options to support differing requirements. It would also limit adoption of the platform
+as it can't meet them.
 
 ## Decision
 
