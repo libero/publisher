@@ -22,14 +22,15 @@ We investigated the use of micro frontends in [#371][Spike].
 
 ## Decision
 
-We will create separate services for individual, and groups of, pages, that will be exposed through a proxy to appear as
-a single service. The frontends are entirely independent, and can be not used or replaced entirely at will.
+We will create separate services for individual, and groups of, pages. The user will use a proxy to make them appear as
+a single service. The frontends are independent of each other, and are always optional.
 
 ## Consequences
 
-- A proxy (e.g. Nginx, Varnish) is required to route between the frontends.
-- Authentication knowledge will need to be shared between the frontends.
+- The frontends will need to share knowledge of authentication.
 - Each frontend will have its own assets.
-- Each frontend can be configured to know how to generate links to other frontends.
+- The user will need to configure each frontend so it knows how to generate links to other frontends.
+- The user can choose which frontends to use.
+- The user can add their own frontends as needed.
 
 [Spike]: https://github.com/libero/publisher/issues/371 "Spike for micro frontends architecture"
