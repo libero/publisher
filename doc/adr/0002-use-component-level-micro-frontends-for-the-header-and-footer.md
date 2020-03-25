@@ -20,13 +20,12 @@ We will use [Edge Side Includes (ESIs)], limited to `<esi:include>`, to transclu
 
 Each component will have 2 ESIs: 1 for the `<head>` and 1 for the `<body>`.
 
-Each page-level micro frontend will process the ESIs if it is not behind a trusted proxy that can do so. They will
-detect this through the [`Surrogate-Capability`][Surrogate-Capability] request header.
-
 ## Consequences
 
 - It is compatible with popular ESI processors (e.g. Varnish, Fastly).
-- Not all popular CDNs are ESI processors (e.g. AWS CloudFront).
+- Not all popular CDNs are ESI processors (e.g. AWS CloudFront). Each page-level micro frontend will process the ESIs if
+  it is not behind a trusted proxy that can do so. They can detect this through the
+  [`Surrogate-Capability`][Surrogate-Capability] request header.
 - Components can add their own CSS and JavaScript in the `<head>` ESI.
 - As the page transcludes the component, the user has to take care to avoid clashes in styling and behaviour.
 - The header and footer services can be replaced, or not used.
