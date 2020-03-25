@@ -1,4 +1,4 @@
-# 2. Use component-level micro frontends
+# 2. Use component-level micro frontends for the header and footer
 
 Date: 2020-03-25
 
@@ -14,7 +14,9 @@ We expect users will want to change the content of both, as well as their stylin
 
 ## Decision
 
-We will use [Edge Side Includes (ESIs)], limited to `<esi:include>`.
+We will create dedicated services for the header and footer.
+
+We will use [Edge Side Includes (ESIs)], limited to `<esi:include>`, to transclude them into pages. 
 
 Each component will have 2 ESIs: 1 for the `<head>` and 1 for the `<body>`.
 
@@ -27,6 +29,7 @@ detect this through the [`Surrogate-Capability`][Surrogate-Capability] request h
 - Not all popular CDNs are ESI processors (e.g. AWS CloudFront).
 - Components can add their own CSS and JavaScript in the `<head>` ESI.
 - As the page transcludes the component, the user has to take care to avoid clashes in styling and behaviour.
+- The header and footer services can be replaced, or not used.
 
 [Edge Side Includes (ESIs)]: https://www.w3.org/TR/esi-lang
 [Separate micro frontends for pages]: 0001-use-micro-frontends.md
