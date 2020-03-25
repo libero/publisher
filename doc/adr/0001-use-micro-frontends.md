@@ -18,6 +18,8 @@ As a monolith, it is hard, if not impossible, to change or replace parts without
 mean a lot of configuration options to support differing requirements. It would also limit adoption of the platform
 as it can't meet them.
 
+We investigated the use of micro frontends in [#371][Spike].
+
 ## Decision
 
 We will create separate services for individual, and groups of, pages, that will be exposed through a proxy to appear as
@@ -29,3 +31,5 @@ a single service. The frontends are entirely independent, and can be not used or
 - Authentication knowledge will need to be shared between the frontends.
 - Each frontend will have its own assets.
 - Each frontend can be configured to know how to generate links to other frontends.
+
+[Spike]: https://github.com/libero/publisher/issues/371 "Spike for micro frontends architecture"

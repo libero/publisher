@@ -12,6 +12,8 @@ Having [separate micro frontends for pages] requires duplication of the header a
 
 We expect users will want to change the content of both, as well as their styling and behaviour.
 
+We investigated the use of micro frontends in [#371][Spike].
+
 ## Decision
 
 We will create dedicated services for the header and footer.
@@ -33,4 +35,5 @@ Each component will have 2 ESIs: 1 for the `<head>` and 1 for the `<body>`.
 
 [Edge Side Includes (ESIs)]: https://www.w3.org/TR/esi-lang
 [Separate micro frontends for pages]: 0001-use-micro-frontends.md
+[Spike]: https://github.com/libero/publisher/issues/371 "Spike for micro frontends architecture"
 [Surrogate-Capability]: https://www.rfc-editor.org/rfc/rfc4229.html#section-2.1.101
