@@ -22,4 +22,4 @@ appear as a single service. The frontends are entirely independent, and can be n
 - A proxy (e.g. Nginx, Varnish) is required to route between the frontends.
 - Authentication knowledge will need to be shared between the frontends.
 - Each frontend will have its own assets.
-- Each frontend requires configuration to know how to generate links to other frontends.
+- Each frontend can be configured to know how to generate links to other frontends.
